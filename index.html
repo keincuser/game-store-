@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GAME STORE</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #160522;
+  color: white;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+  margin: 15px 0 25px;
+  color: #fff;
+  text-shadow: 0 0 15px #d000ff;
+}
+
+.products {
+  max-width: 900px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.card {
+  background: #220936;
+  border: 1px solid #482064;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px #0008;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.info {
+  padding: 15px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.rating {
+  color: #ffd900;
+  margin-bottom: 8px;
+}
+
+.price {
+  color: #32e982;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.buy {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 13px;
+  border-radius: 14px;
+  background: linear-gradient(90deg,#ed3992,#ef2630);
+}
+
+@media(max-width:600px) {
+  .products {
+    gap: 10px;
+  }
+
+  .info {
+    padding: 11px;
+  }
+
+  .name {
+    font-size: 14px;
+  }
+
+  .rating,
+  .price {
+    font-size: 14px;
+  }
+
+  .buy {
+    font-size: 14px;
+    padding: 11px 5px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<h1>👑 GAME STORE</h1>
+
+<div class="products">
+
+  <div class="card">
+    <img src="https://placehold.co/800x450/5b087d/ffffff?text=PRODUCT+1">
+    <div class="info">
+      <div class="name">👑 DRIP CLIENT</div>
+      <div class="rating">⭐ 5.0/5</div>
+      <div class="price">Rp5.000</div>
+      <a class="buy" href="https://wa.me/628XXXXXXXXXX">🛒 Beli</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://placehold.co/800x450/5b087d/ffffff?text
